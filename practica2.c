@@ -8,11 +8,12 @@ int o;
 char op;
 float a,b,c;
 do{
+    system("cls");
 	printf("elige la opcion \n");
 	printf("1-SUMA \n2-RESTA\n3-MULTIPLICACION\n4-DIVISION\n");
 	printf("elige una opcion (1-4)\n"); scanf("%d",&o);
-   printf("dame el primer operando \t"); scanf("%f",&a);
-   printf("dame el segundo operando \t"); scanf("%f",&b);
+    printf("dame el primer operando \t"); scanf("%f",&a);
+    printf("dame el segundo operando \t"); scanf("%f",&b);
 	switch (o){
 		case 1:
 		c=a+b;
